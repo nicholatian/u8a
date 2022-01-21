@@ -1,0 +1,19 @@
+This file contains the project’s copypastable boilerplate comment headers.
+
+Boilerplate for C-like languages:
+
+/****************************************************************************\
+ *                                   u8a.                                   *
+ *                                                                          *
+ *                   Copyright (C) 2021 Alexander Nicholi                   *
+ *                           All rights reserved.                           *
+\****************************************************************************/
+
+Hash-based boilerplate (Python, POSIX shell, Makefile):
+
+##############################################################################
+##                                   u8a.                                   ##
+##                                                                          ##
+##                   Copyright (C) 2021 Alexander Nicholi                   ##
+##                           All rights reserved.                           ##
+##############################################################################

@@ -1,0 +1,35 @@
+{
+	"configurations": [
+		{
+			"name": "Mac",
+			"includePath": [
+				"${workspaceFolder}/include",
+				"${workspaceFolder}/src",
+				"/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8",
+				"/Library/Frameworks/Python.framework/Versions/3.8/include/python3.8",
+				"/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/numpy/core/include"
+			],
+			"defines": [
+				"__VSCODE_INTELLISENSE__"
+			],
+			"compilerPath": "/usr/local/opt/llvm/bin/clang",
+			"cStandard": "c89",
+			"cppStandard": "c++11",
+			"intelliSenseMode": "clang-x64"
+		}, {
+			"name": "Linux",
+			"includePath": [
+				"${workspaceFolder}/include",
+				"${workspaceFolder}/src",
+			],
+			"defines": [
+				"__VSCODE_INTELLISENSE__"
+			],
+			"compilerPath": "/usr/bin/clang",
+			"cStandard": "c89",
+			"cppStandard": "c++11",
+			"intelliSenseMode": "clang-x64"
+		}
+	],
+	"version": 4
+}

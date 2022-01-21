@@ -1,0 +1,13 @@
+
+u8a array merge as a Numpy C extension.
+
+To build, cd into src and run `python3 setup.py build`.
+To install, cd into src and run `python3 setup.py install`.
+
+---
+
+This repository is non-functional. I did 3 iterations, as seen in main.old{,2,3}.c, none of which would show up in the Python interpreter once installed.
+
+Finally, I copied the example code from <https://numpy.org/doc/stable/user/c-info.ufunc-tutorial.html>, both the C file and the setup.py, verbatim, and it still failed to work.
+
+The module registers and shows up, but it doesn't have the C function as a member variable present at all. I fought with it for several hours before giving up.
